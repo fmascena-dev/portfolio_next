@@ -7,23 +7,53 @@ import {
   Mail,
   MapPin,
 } from "lucide-react";
-import { FaGithub, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaGithub,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 
 export const socialLinks = [
-  { icon: <FaGithub size={20} />, href: "https://github.com/fmascena-dev" },
+  {
+    icon: <FaGithub size={20} />,
+    href: "https://github.com/fmascena-dev",
+    title: "GitHub",
+  },
   {
     icon: <FaLinkedinIn size={20} />,
     href: "https://linkedin.com/in/felipe-mascena",
+    title: "LinkedIn",
   },
-  { icon: <FaYoutube size={20} />, href: "https://youtube.com/seu-canal" },
-  { icon: <FaTwitter size={20} />, href: "https://twitter.com/seu-perfil" },
+  {
+    icon: <FaInstagram size={20} />,
+    href: "https://www.instagram.com/f_mascena.dev/",
+    title: "Instagram",
+  },
+  {
+    icon: <FaFacebook size={20} />,
+    href: "https://www.facebook.com/felipe.mascena17",
+    title: "Facebook",
+  },
+  {
+    icon: <FaYoutube size={20} />,
+    href: "https://youtube.com/seu-canal",
+    title: "Youtube",
+  },
+  {
+    icon: <FaTwitter size={20} />,
+    href: "https://twitter.com/seu-perfil",
+    title: "Twitter",
+  },
 ];
 
 export const stats = [
-  { number: "12", text: "Anos de experiência" },
+  { number: "2", text: "Anos de experiência" },
   { number: "26", text: "Projetos completados" },
-  { number: "8", text: "Tecnologias dominadas" },
-  { number: "499", text: "Commits de código" },
+  { number: "11", text: "Tecnologias dominadas" },
+  { number: "552", text: "Commits de código" },
 ];
 
 export const menuItems = [
@@ -156,6 +186,18 @@ export const skillsData = [
   {
     name: "TypeScript",
     icon: "/skills/typescript.svg",
+  },
+  {
+    name: "AWS",
+    icon: "/skills/aws.svg",
+  },
+  {
+    name: "MySQL",
+    icon: "/skills/mysql.svg",
+  },
+  {
+    name: "Java",
+    icon: "/skills/java.svg",
   },
 ];
 
