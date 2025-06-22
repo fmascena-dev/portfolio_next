@@ -12,7 +12,7 @@ export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full z-50 bg-gray-950/80 backdrop-blur-sm lg:bg-transparent lg:backdrop-blur-none">
+    <nav className="fixed w-full z-50 bg-gray-950 backdrop-blur-sm">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-12">
           <Link href="/">
@@ -78,9 +78,9 @@ export default function NavBar() {
       {/* Menu Mobile */}
       {isMenuOpen && (
         <motion.div
-        initial={{opacity: 0, y: -20}}
-        animate={{opacity: 1, y: 0}}
-        className="md:hidden p-3"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="md:hidden p-3"
         >
           {menuItems.map((item, index) => (
             <Link
