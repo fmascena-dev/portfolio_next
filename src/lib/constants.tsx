@@ -51,7 +51,7 @@ export const socialLinks = [
 
 export const stats = [
   { number: "2", text: "Anos de experiência" },
-  { number: "26", text: "Projetos completados" },
+  { number: "26", text: "Projetos finalizados" },
   { number: "11", text: "Tecnologias dominadas" },
   { number: "552", text: "Commits de código" },
 ];
