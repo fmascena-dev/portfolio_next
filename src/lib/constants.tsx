@@ -105,41 +105,65 @@ export const ExperienceTabs = [
 export const resumeData = {
   experience: [
     {
-      period: "2022 - Present",
-      title: "Full Stack Developer",
-      company: "Tech Solutions Inc.",
+      period: "2023 - Present",
+      title: "Freelance Web Developer",
+      company: "Freelancer",
       description:
-        "Desenvolvimento de aplicações web completas usando React, Node.js e TypeScript",
+        "Desenvolvimento de aplicações web completas usando React, Node.js, Next.js, TypeScript, Python, Django, Java, Spring.",
     },
     {
-      period: "2020 - 2021",
-      title: "Freelance Web Developer",
-      company: "E-commerce Startup",
-      description: "Criação de lojas virtuais e sistemas de gestão",
+      period: "2021 - 2023",
+      title: "Encarregado Logístico",
+      company: "WMA Transportes e Logística",
+      description: "Gestão de mercadorias, gestão de pessoas, gestão de galpão, roteirização de entregas.",
     },
   ],
   education: [
     {
-      period: "2018 - 2022",
-      title: "Ciência da Computação",
-      institution: "Universidade Federal",
+      period: "2024 - 2028",
+      title: "Engenharia de Software",
+      institution: "Universidade de Uberaba",
       description:
-        "Bacharelado com foco em desenvolvimento web e sistemas distribuídos",
+        "Bacharelado com foco em criação de software de alta qualidade.",
     },
     {
-      period: "2023",
+      period: "2025 ~ 2028",
       title: "AWS Cloud Practitioner",
       institution: "Amazon Web Services",
       description: "Certificação em serviços cloud",
     },
   ],
   skills: [
-    { name: "Frontend", items: ["React", "Next.js", "TypeScript"] },
-    { name: "Backend", items: ["Node.js", "Python", "PostgreSQL", "MongoDB"] },
-    { name: "DevOps", items: ["Git", "Docker", "AWS", "CI/CD"] },
+    {
+      name: "Frontend",
+      items: [
+        "React",
+        "Vue.js",
+        "Next.js",
+        "Tailwind",
+        "Sass",
+        "Styled-Components",
+        "Javascript",
+        "TypeScript",
+      ],
+    },
+    {
+      name: "Backend",
+      items: ["Node.js", "Python", "Django", "Java", "Spring", "MySQL"],
+    },
+    { name: "DevOps", items: ["Git", "Docker", "AWS", "CI/CD", "IaC"] },
     {
       name: "Soft Skills",
-      items: ["Comunicação", "Liderança", "Trabalho em Equipe"],
+      items: [
+        "Comunicação",
+        "Liderança",
+        "Trabalho em Equipe",
+        "Aprendizado contínuo",
+        "Pensamento analítico e crítico",
+        "Proatividade",
+        "Organização e Gestão do tempo",
+        "Atendimento ao Cliente",
+      ],
     },
   ],
   about: {
@@ -147,9 +171,10 @@ export const resumeData = {
       "Desenvolvedor Full Stack apaixonado por criar soluções inovadoras e escaláveis. Experiência em desenvolvimento web moderno e práticas ágeis.",
     interests: [
       "Open Source",
-      "UI/UX Design",
+      "Front-End Developer",
+      "Back-End Developer",
+      "Full-Stack Developer",
       "Cloud Computing",
-      "Machine Learning",
     ],
   },
 };
@@ -164,6 +189,14 @@ export const skillsData = [
     icon: "/skills/css.svg",
   },
   {
+    name: "Sass",
+    icon: "/skills/sass.svg",
+  },
+  {
+    name: "Styled-Components",
+    icon: "/skills/styled-components.svg",
+  },
+  {
     name: "JavaScript",
     icon: "/skills/javascript.svg",
   },
@@ -174,6 +207,18 @@ export const skillsData = [
   {
     name: "Next.js",
     icon: "/skills/next.svg",
+  },
+  {
+    name: "Python",
+    icon: "/skills/python.svg",
+  },
+  {
+    name: "Django",
+    icon: "/skills/django.svg",
+  },
+  {
+    name: "Vue.js",
+    icon: "/skills/vue-js.svg",
   },
   {
     name: "Node.js",
@@ -198,6 +243,10 @@ export const skillsData = [
   {
     name: "Java",
     icon: "/skills/java.svg",
+  },
+  {
+    name: "Spring",
+    icon: "/skills/spring.svg",
   },
 ];
 
