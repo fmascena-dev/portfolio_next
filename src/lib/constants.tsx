@@ -127,10 +127,22 @@ export const resumeData = {
         "Bacharelado com foco em criação de software de alta qualidade.",
     },
     {
-      period: "2025 ~ 2028",
+      period: "2024 - 2026",
+      title: "Análise e Desenvolvimento de Sistemas",
+      institution: "UniFatecie",
+      description: "Tecnólogo em Análise e Desenvolvimento de Sistemas.",
+    },
+    {
+      period: "2025 - 2025",
+      title: "Desenvolvedor FullStack",
+      institution: "Vai na Web",
+      description: "Certificação em desenvolvimento fullstack.",
+    },
+    {
+      period: "2025 - 2028",
       title: "AWS Cloud Practitioner",
       institution: "Amazon Web Services",
-      description: "Certificação em serviços cloud",
+      description: "Certificação em serviços cloud.",
     },
   ],
   skills: [
@@ -171,67 +183,16 @@ export const resumeData = {
       "Desenvolvedor Full Stack apaixonado por criar soluções inovadoras e escaláveis. Experiência em desenvolvimento web moderno e práticas ágeis.",
     interests: [
       "Open Source",
-      "Front-End Developer",
-      "Back-End Developer",
-      "Full-Stack Developer",
+      "Front-End",
+      "Back-End",
+      "Full-Stack",
       "Cloud Computing",
+      "DevOps",
     ],
   },
 };
 
 export const skillsData = [
-  {
-    name: "HTML5",
-    icon: "/skills/html.svg",
-  },
-  {
-    name: "CSS3",
-    icon: "/skills/css.svg",
-  },
-  {
-    name: "Sass",
-    icon: "/skills/sass.svg",
-  },
-  {
-    name: "Styled-Components",
-    icon: "/skills/styled-components.svg",
-  },
-  {
-    name: "JavaScript",
-    icon: "/skills/javascript.svg",
-  },
-  {
-    name: "React",
-    icon: "/skills/react.svg",
-  },
-  {
-    name: "Next.js",
-    icon: "/skills/next.svg",
-  },
-  {
-    name: "Python",
-    icon: "/skills/python.svg",
-  },
-  {
-    name: "Django",
-    icon: "/skills/django.svg",
-  },
-  {
-    name: "Vue.js",
-    icon: "/skills/vue-js.svg",
-  },
-  {
-    name: "Node.js",
-    icon: "/skills/nodejs.svg",
-  },
-  {
-    name: "Tailwind",
-    icon: "/skills/tailwind.svg",
-  },
-  {
-    name: "TypeScript",
-    icon: "/skills/typescript.svg",
-  },
   {
     name: "AWS",
     icon: "/skills/aws.svg",
@@ -245,8 +206,60 @@ export const skillsData = [
     icon: "/skills/java.svg",
   },
   {
+    name: "Next.js",
+    icon: "/skills/next.svg",
+  },
+  {
     name: "Spring",
     icon: "/skills/spring.svg",
+  },
+  {
+    name: "Tailwind",
+    icon: "/skills/tailwind.svg",
+  },
+  {
+    name: "TypeScript",
+    icon: "/skills/typescript.svg",
+  },
+  {
+    name: "Sass",
+    icon: "/skills/sass.svg",
+  },
+  {
+    name: "Python",
+    icon: "/skills/python.svg",
+  },
+  {
+    name: "Styled-Components",
+    icon: "/skills/styled-components.svg",
+  },
+  {
+    name: "JavaScript",
+    icon: "/skills/js.svg",
+  },
+  {
+    name: "React",
+    icon: "/skills/react.svg",
+  },
+  {
+    name: "HTML5",
+    icon: "/skills/html.svg",
+  },
+  {
+    name: "CSS3",
+    icon: "/skills/css.svg",
+  },
+  {
+    name: "Django",
+    icon: "/skills/django.svg",
+  },
+  {
+    name: "Vue.js",
+    icon: "/skills/vue-js.svg",
+  },
+  {
+    name: "Node.js",
+    icon: "/skills/nodejs.svg",
   },
 ];
 
