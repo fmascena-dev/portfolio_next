@@ -331,20 +331,20 @@ export const projects = [
 export const contactInfo = [
   {
     icon: <Phone className="w-6 h-6" />,
-    title: "Phone",
-    content: "(+40) 321 654 876",
+    title: "Celular",
+    content: "(21) 97929-8951",
     bg: "bg-emerald-400/10",
   },
   {
     icon: <Mail className="w-6 h-6" />,
     title: "Email",
-    content: "youremail@email.com",
+    content: "felipe.mascena.dev@gmail.com",
     bg: "bg-emerald-400/10",
   },
   {
     icon: <MapPin className="w-6 h-6" />,
-    title: "Address",
-    content: "Code Corner, Tech Town 13579",
+    title: "Endereço",
+    content: "Rio de Janeiro, Belford Roxo",
     bg: "bg-emerald-400/10",
   },
 ];
