@@ -12,18 +12,18 @@ export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed w-[100%] z-50 bg-gray-950 backdrop-blur-sm">
+    <nav className="fixed w-[100%] z-50 bg-gray-950 backdrop-blur-sm pt-4">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-12">
           <Link href="/">
-            <motion.div
+            <motion.p
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               className="text-2xl font-bold text-gray-300"
             >
-              fmascena<span className="text-[#00ffd5]">.</span>dev
-            </motion.div>
+              fmascena<span className="text-[#00ffd5]">.dev</span>
+            </motion.p>
           </Link>
 
           {/* Menu Desktop */}
@@ -52,17 +52,6 @@ export default function NavBar() {
                 </Link>
               </motion.div>
             ))}
-
-            <motion.button
-              className="bg-[#00ffd5] text-gray-900 py-1 px-4 rounded-full font-bold hover:bg-[#00ffd5]/70 transition-colors duration-300 hover:ease-in-out hover:cursor-pointer"
-              whileHover={{ scale: 1.04 }}
-              whileTap={{ scale: 0.95 }}
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4 }}
-            >
-              Me Contrate
-            </motion.button>
           </div>
 
           {/* Botão Menu Mobile */}
@@ -94,10 +83,6 @@ export default function NavBar() {
               {item.title}
             </Link>
           ))}
-
-          <button className="w-full bg-[#00ffd5] text-gray-900 py-1 px-4 rounded-full font-bold mt-4 hover:bg-[#00ffd5]/70 transition-colors duration-300 hover:ease-in-out hover:cursor-pointer">
-            Me Contrate
-          </button>
         </motion.div>
       )}
     </nav>

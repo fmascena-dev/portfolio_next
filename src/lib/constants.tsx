@@ -70,7 +70,7 @@ export const services = [
     icon: <Code2 size={32} />,
     title: "Web Development",
     description: "Criação de sites e aplicações web modernas e responsivas",
-    features: ["React", "Next.js", "Node.js", "TypeScript"],
+    features: ["React", "Next.js", "Node.js", "TypeScript", "Vue.js"],
   },
   {
     number: "02",
@@ -149,8 +149,8 @@ export const resumeData = {
     {
       name: "Frontend",
       items: [
-        "React",
         "Vue.js",
+        "React",
         "Next.js",
         "Tailwind",
         "Sass",
@@ -163,7 +163,7 @@ export const resumeData = {
       name: "Backend",
       items: ["Node.js", "Python", "Django", "Java", "Spring", "MySQL"],
     },
-    { name: "DevOps", items: ["Git", "Docker", "AWS", "CI/CD", "IaC"] },
+    { name: "DevOps", items: ["Git", "Docker", "AWS"] },
     {
       name: "Soft Skills",
       items: [
@@ -180,7 +180,7 @@ export const resumeData = {
   ],
   about: {
     description:
-      "Desenvolvedor Full Stack apaixonado por criar soluções inovadoras e escaláveis. Experiência em desenvolvimento web moderno e práticas ágeis.",
+      "Desenvolvedor Front-End apaixonado por criar soluções inovadoras e escaláveis. Experiência em desenvolvimento web moderno e práticas ágeis.",
     interests: [
       "Open Source",
       "Front-End",
@@ -193,6 +193,10 @@ export const resumeData = {
 };
 
 export const skillsData = [
+  {
+    name: "Vue.js",
+    icon: "/skills/vue-js.svg",
+  },
   {
     name: "AWS",
     icon: "/skills/aws.svg",
@@ -253,10 +257,7 @@ export const skillsData = [
     name: "Django",
     icon: "/skills/django.svg",
   },
-  {
-    name: "Vue.js",
-    icon: "/skills/vue-js.svg",
-  },
+  
   {
     name: "Node.js",
     icon: "/skills/nodejs.svg",

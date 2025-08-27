@@ -9,8 +9,8 @@ import CountUp from "./CountUp";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col bg-gray-950/80 text-white pt-20 lg:pt-8">
-      <div className="flex flex-col mx-auto px-6 gap-10 lg:gap-5 lg:pt-8">
+    <section className="min-h-screen flex flex-col bg-gray-950 text-white pt-20">
+      <div className="flex flex-col mx-auto px-6 gap-10 lg:gap-5 lg:pt-8 ">
         <div className="max-w-5xl mx-auto flex flex-col-reverse md:flex-row gap-14">
           <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-6 lg:gap-16">
             <motion.div
@@ -19,7 +19,7 @@ export default function Hero() {
               transition={{ duration: 0.5 }}
             >
               <span className="text-gray-300 mb-4 block text-center lg:text-left">
-                Desenvolvedor FullStack
+                Desenvolvedor Front-End
               </span>
               <h1 className="text-5xl font-bold mb-4 text-center lg:text-left">
                 Olá, Eu sou
@@ -78,15 +78,6 @@ export default function Hero() {
           >
             <div className="md:block w-[350px] h-[430px] relative mx-auto">
               <motion.div
-                // animate={{
-                //   rotate: 360,
-                //   scale: [1, 1.05, 1],
-                // }}
-                // transition={{
-                //   duration: 8,
-                //   ease: "linear",
-                //   repeat: Infinity,
-                // }}
                 className="absolute inset-0 rounded-full border-2 border-[#00ffd5] shadow shadow-[#00ffd5]"
               />
 
@@ -115,7 +106,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-8"
+          className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-10"
         >
           {stats.map((stat, index) => (
             <div key={index} className="flex items-center gap-4">

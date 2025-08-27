@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Services() {
   return (
-    <section className="min-h-screen bg-gray-950/80 text-gray-300">
+    <section className="min-h-screen bg-gray-950 text-gray-300">
       <div className="max-w-5xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {services.map((service, index) => (
