@@ -9,7 +9,7 @@ import CountUp from "./CountUp";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col bg-gray-950 text-white pt-20">
+    <section className="min-h-screen flex flex-col bg-gray-950 text-white pt-16">
       <div className="flex flex-col mx-auto px-6 gap-10 lg:gap-5 lg:pt-8 ">
         <div className="max-w-5xl mx-auto flex flex-col-reverse md:flex-row gap-14">
           <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-6 lg:gap-16">
@@ -106,7 +106,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-10"
+          className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-1"
         >
           {stats.map((stat, index) => (
             <div key={index} className="flex items-center gap-4">

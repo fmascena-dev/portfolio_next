@@ -105,6 +105,13 @@ export const ExperienceTabs = [
 export const resumeData = {
   experience: [
     {
+      period: "2025 - Present",
+      title: "Desenvolvedor Front-end",
+      company: "Vai na Web / BTG Pactual",
+      description:
+        "Desenvolvimento de aplicações web completas usando React, Node.js, Next.js, TypeScript, Python, Django, Java, Spring.",
+    },
+    {
       period: "2023 - Present",
       title: "Freelance Web Developer",
       company: "Freelancer",
@@ -129,14 +136,20 @@ export const resumeData = {
     {
       period: "2024 - 2026",
       title: "Análise e Desenvolvimento de Sistemas",
-      institution: "UniFatecie",
+      institution: "Faculdade Única",
       description: "Tecnólogo em Análise e Desenvolvimento de Sistemas.",
+    },
+    {
+      period: "2024 - 2024",
+      title: "Desenvolvedor Front-End",
+      institution: "Vai na Web",
+      description: "Certificação em desenvolvimento front-end utilizando React, SASS, Vue.js.",
     },
     {
       period: "2025 - 2025",
       title: "Desenvolvedor FullStack",
       institution: "Vai na Web",
-      description: "Certificação em desenvolvimento fullstack.",
+      description: "Certificação em desenvolvimento fullstack utilizando React, SASS, Python, Flask.",
     },
     {
       period: "2025 - 2028",
@@ -198,6 +211,26 @@ export const skillsData = [
     icon: "/skills/vue-js.svg",
   },
   {
+    name: "Sass",
+    icon: "/skills/sass.svg",
+  },
+  {
+    name: "TypeScript",
+    icon: "/skills/typescript.svg",
+  },
+  {
+    name: "Tailwind",
+    icon: "/skills/tailwind.svg",
+  },
+  {
+    name: "Next.js",
+    icon: "/skills/next.svg",
+  },
+  {
+    name: "React",
+    icon: "/skills/react.svg",
+  },
+  {
     name: "AWS",
     icon: "/skills/aws.svg",
   },
@@ -210,24 +243,8 @@ export const skillsData = [
     icon: "/skills/java.svg",
   },
   {
-    name: "Next.js",
-    icon: "/skills/next.svg",
-  },
-  {
     name: "Spring",
     icon: "/skills/spring.svg",
-  },
-  {
-    name: "Tailwind",
-    icon: "/skills/tailwind.svg",
-  },
-  {
-    name: "TypeScript",
-    icon: "/skills/typescript.svg",
-  },
-  {
-    name: "Sass",
-    icon: "/skills/sass.svg",
   },
   {
     name: "Python",
@@ -240,10 +257,6 @@ export const skillsData = [
   {
     name: "JavaScript",
     icon: "/skills/js.svg",
-  },
-  {
-    name: "React",
-    icon: "/skills/react.svg",
   },
   {
     name: "HTML5",

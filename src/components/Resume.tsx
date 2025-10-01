@@ -95,7 +95,7 @@ export default function Resume() {
             transition={{ delay: 0.2 }}
             className="grid md:grid-cols-2 gap-8"
           >
-            <div className="bg-[#00ffd5]/10 p-4 rounded-xl border border-[#00ffd5]/20 hover:border-[#00ffd5]">
+            <div className="p-4 rounded-xl border border-[#00ffd5]/30 hover:border-[#00ffd5]">
               <h3 className="text-xl font-bold mb-4">Sobre mim</h3>
 
               <p className="text-[#00ffd5] text-sm">
@@ -103,13 +103,13 @@ export default function Resume() {
               </p>
             </div>
 
-            <div className="bg-[#00ffd5]/10 p-4 rounded-xl border border-[#00ffd5]/20 hover:border-[#00ffd5]">
+            <div className="p-4 rounded-xl border border-[#00ffd5]/30 hover:border-[#00ffd5]">
               <h3 className="text-xl font-bold mb-4">Interesses</h3>
               <div className="flex flex-wrap gap-2">
                 {resumeData.about.interests.map((interest, index) => (
                   <span
                     key={index}
-                    className="px-3 py-1 bg-[#00ffd5]/10 text-[#00ffd5] rounded-full text-sm border border-[#00ffd5]/60"
+                    className="px-3 py-1 text-[#00ffd5] rounded-full text-sm border border-[#00ffd5] cursor-pointer hover:bg-[#00ffd5]/50 transition-colors duration-300"
                   >
                     {interest}
                   </span>
